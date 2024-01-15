@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="Badge Test(failed)">
+    <groups>
+      <run>
+        <include name="Contribution"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="PracticeTesting.EasyCollab.Tests.PositiveTestCases.BadgePositiveTest">
+        <methods>
+          <include name="loginApplication"/>
+          <include name="teardown"/>
+          <include name="ProfileSetup"/>
+          <include name="SearchbyToFromdate"/>
+        </methods>
+      </class> <!-- PracticeTesting.EasyCollab.Tests.PositiveTestCases.BadgePositiveTest -->
+    </classes>
+  </test> <!-- Badge Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

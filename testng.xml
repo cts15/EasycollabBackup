@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+<listener class-name="PracticeTesting.EasyCollab.TestComponents.Listeners"></listener>
+</listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+  <!-- <class name="PracticeTesting.EasyCollab.Tests.PositiveTestCases.LibraryTestCases"/>-->
+    <class name="PracticeTesting.EasyCollab.Tests.PositiveTestCases.SnackOrderReportTestCase"/> 
+     <!-- <class name="PracticeTesting.EasyCollab.Tests.NegativeTestCases.ChangePasswordNegativeTest"/>
+      <class name="PracticeTesting.EasyCollab.Tests.PositiveTestCases.ForgetPasswordTestCases"/>
+    
+      <class name="PracticeTesting.EasyCollab.Tests.PositiveTestCases.ChangePasswordPositiveTest"/>
+      <class name="PracticeTesting.EasyCollab.Tests.NegativeTestCases.TimeSheetNegativeTestCase"/>
+      <class name="PracticeTesting.EasyCollab.Tests.NegativeTestCases.LoginNegativeTest"/>
+      <class name="PracticeTesting.EasyCollab.Tests.PositiveTestCases.TimeSheetTestCases"/>
+      <class name="PracticeTesting.EasyCollab.Tests.PositiveTestCases.BadgePositiveTest"/>
+      <class name="PracticeTesting.EasyCollab.Tests.NegativeTestCases.SupportTicketNegativeTestCase"/>
+      <class name="PracticeTesting.EasyCollab.Tests.PositiveTestCases.ProfileDropdownTest"/>
+      <class name="PracticeTesting.EasyCollab.Tests.PositiveTestCases.SupportTicketsPositiveTestCases"/>
+      <class name="PracticeTesting.EasyCollab.Tests.PositiveTestCases.LoginPositiveTest"/>
+      <class name="PracticeTesting.EasyCollab.Tests.NegativeTestCases.ForgetPasswordNegativeTestCase"/>
+      <class name="PracticeTesting.EasyCollab.Tests.PositiveTestCases.ProjectTestCase"/>--> 
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
